@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+.prof a{
+    padding-right: 20px;
+    font-size: 15px;
+    padding-bottom: 31.2px;
+    padding-top: 31.2px;
+    text-decoration: none;
+    display: block;
+
+}  
+.srmimg{
+    padding: 10px;
+    float: left;
+}
+.head{
+    font-size: 50px;
+    text-align: center;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+nav p{
+    font-size: 30px;
+    float: left;
+    line-height: 30px;
+    padding-left: 10PX;
+    padding-top: 25px ;
+}
+nav ul{
+     float:right;
+     text-align: center;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 180px;
+}
+nav ul li a.navi{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 31.2px;
+    padding-top: 31.2px;
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;  
+    position: relative;
+    background-color: white;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover>ul{
+    display: block; 
+}
+nav ul li ul li  {
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+nav ul li ul li a{
+    text-decoration: none;
+}
+nav ul li ul li:hover{
+    background-color: aqua;
+    border-radius: 0px 0px 4px 4px;
+}
+.pro{
+    padding: 100px 0px 0px 400px; 
+}
+.pro table{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;   
+}
+td{
+    border:ridge;
+}
